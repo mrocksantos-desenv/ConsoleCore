@@ -10,7 +10,8 @@ namespace GameTOP
             var jogo = new JogoLegal(
                 new Jogador1(),
                 new Jogador2(),
-                new Jogador3()
+                new Jogador3(),
+                new Jogador4()
                 );
             jogo.IniciarJogo();
         }

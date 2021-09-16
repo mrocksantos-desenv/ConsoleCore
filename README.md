@@ -29,4 +29,5 @@ dotnet add GameTOP/GameTOP.csproj reference GameTOP.Interface/GameTOP.Interface.
 ## 7º Adicionar referência do GameTOP.Interface dentro do projeto GameTOP.Lib
 dotnet add GameTOP.Lib/GameTOP.Lib.csproj reference GameTOP.Interface/GameTOP.Interface.csproj
 
-
+## 8º Execute o projeto especificado
+dotnet run --project ./projects/proj1/proj1.csproj
